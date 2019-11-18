@@ -1,0 +1,11 @@
+setmesh(256,64,1,1e-9,1e-9,1e-9,0,0,0)
+  alpha = 0.1                                                                      
+  Msat = 800e3                                                                    
+  Aex = 15e-12                                                                    
+  Ku1 = 700e3
+  anisu = vector(0,0,1)
+  setsolver(4)
+  m = uniform(1,1,1)
+  fixdt = 1e-14
+  autosnapshot(m,5e-12)
+  steps(240000)
