@@ -10,6 +10,7 @@ Very small µmagnetic solver written in plain C
 * RK4 solver gives accurate result for NIST's Standard Problem Number 4
 * Save Magnetization Plot in PNG format
 * Routine to write OVF files
+* Demag kernel computed in high precission with Newell formula and cropped to `float` after FFT.
 
 ## Acknowledgment
 * Thanks to Prof. Dr. Luis López Díaz (USAL) for the original Demagnetizing Tensor Routines in Fortran
